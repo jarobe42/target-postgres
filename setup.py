@@ -22,7 +22,7 @@ setup(
         'arrow==0.15.5',
         'psycopg2==2.8.5',
         'psycopg2-binary==2.8.5',
-        'singer-python==5.9.0'
+        'singer-python @ git+ssh://git@github.com/jarobe42/singer-python@feature/allow-pytz-versions#egg=singer-python'
     ],
     setup_requires=[
         "pytest-runner"
